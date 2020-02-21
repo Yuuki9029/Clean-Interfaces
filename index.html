@@ -5,6 +5,9 @@
     <meta charset="uft-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <link rel="stylesheet" href="index.css">
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="slide.js"></script>
 </head>
 <body>
     <header>
@@ -52,15 +55,45 @@
     <!-- End Header -->
     <div class="slide">
         <div class="slide-show">
-            <div class="slide-img">
-
-            </div>
-            <div class="slide-info">
-
+            <div class="slide-content">
+                <div class="slide-img">
+                    <div class="slide-img" id="slide-ing__1">
+                        <img src="./images/slide/Slide-1.jpg" alt="img 1" class="img__1">
+                    </div>
+                    <div class="slide-img" id= "slide-img__2">
+                        <img src="./images/slide/Slide-2.jpg" alt="img 2" class="img__2">
+                    </div>
+                    <div class="slide-img" id="slide-img__3">
+                        <img src="./images/slide/slide-3.JPG" alt="img 3" class="img__3">
+                    </div>
+                </div>
+                <div class="slide-info">
+                    <div class="slide-info" id="info-1">
+                        <h2 class="info-header header-1">We'll make sure your website 
+                            works for you...</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
+                        </p>
+                        <a href="#" class="btn-info">View Portfolio</a>
+                    </div>
+                    <div class="slide-info" id="info-2">
+                        <h2 class="info-header header-2">Ultimate clean business 
+                            template...</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
+                        </p>
+                        <a href="#" class="btn-info">View Portfolio</a>
+                    </div>
+                    <div class="slide-info" id="info-3">
+                        <h2 class="info-header header-3">Welcome to your
+                            business site...</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
+                        </p>
+                        <a href="#" class="btn-info">View Portfolio</a>
+                    </div>
+                </div>
             </div>
             <div class="slide-btn">
-                <div class="slide-bth__left"></div>
-                <div class="slide-btn__right"></div>
+                <div class="slide-bth" id="previous">&#10094;</div>
+                <div class="slide-btn" id="next">&#10095;</div>
             </div>
         </div>
     </div>

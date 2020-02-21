@@ -112,7 +112,32 @@ h2{
 .slide{
     background: url(./images/bg/slide-bg.jpg) no-repeat;
     background-size: cover;
+    padding: 25px 220px 35px;
+    overflow: hidden;
 }
+
+.slide-show{
+    overflow: hidden;
+    padding: 0px;
+}
+.slide-content:before,
+.slide-content:after{
+    content: '';
+    display: table;
+}
+.slide-content:after{
+    clear: both;
+}
+.slide-img{
+    float: left;
+}
+.slide-info{
+    float: right;
+}
+.slide-img:not(:first-child){
+    display: none;
+}
+/* End Slide */
 .row{
     padding: 30px 186px 33px 220px;
 }
